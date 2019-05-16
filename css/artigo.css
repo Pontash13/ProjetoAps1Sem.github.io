@@ -1,0 +1,21 @@
+.conteudo{	/* Isso é pra deixar a "tela branca" atrás do texto...não inclui o menu*/
+	display: grid;
+	grid-template-columns: 2fr 1fr 0.1fr 2fr;
+	grid-template-rows: 400px 20px 100px 20px 300px 20px 300px;
+}
+
+.arttext{
+	grid-column: 
+}
+
+.artimg{
+}
+.Ads{
+	border: 2px solid black;
+	grid-area: ads;
+}
+
+.Ads img{
+	border: 1px solid black;
+	width: 99.9%;
+}
